@@ -1,0 +1,12 @@
+import React from 'react';
+
+const TestApp = () => {
+  return (
+    <div style={{ padding: '20px', backgroundColor: 'lightblue' }}>
+      <h1>Test App is Working!</h1>
+      <p>If you can see this, React is mounting correctly.</p>
+    </div>
+  );
+};
+
+export default TestApp;
